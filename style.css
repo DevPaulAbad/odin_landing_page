@@ -102,22 +102,19 @@ a{
 .saying
 {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    padding: 48px;
+    padding: 0px 300px;
     background-color: #e5e7eb;
 }
 
 #testimonial{
-    width: 500px;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    text-align: center;
 }
 .author{
-    display: flex;
-    justify-content: space-around;
+    text-align: right;
 }
 
 .toes{
@@ -130,7 +127,7 @@ a{
     background-color: #3882f6;
     margin: 32px;
     color: white;
-    padding: 32px;
+    padding: 10px 80px;
     gap: 32px;
     justify-content: space-between;
     border-radius: 10px;
@@ -147,6 +144,10 @@ a{
     border-radius: 10px;
     border: 1px solid white;
     padding: 8px;
+}
+
+#action{
+    font-size: 24px;
 }
 
 .text{
